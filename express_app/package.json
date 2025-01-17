@@ -1,0 +1,33 @@
+{
+  "name": "patternal-back-end",
+  "version": "1.0.0",
+  "description": "tbd",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "jest",
+    "db:init": "psql -U postgres -f db/schema.sql",
+    "db:trig": "psql -U postgres -f db/triggers.sql",
+    "db:seed": "psql -U postgres -f db/seed.sql"
+  },
+  "keywords": [],
+  "author": " Moinul Khan",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "bcrypt": "^5.1.1",
+    "chai": "^4.3.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "pg-promise": "^11.9.1",
+    "python-shell": "^5.0.0",
+    "sql": "^0.78.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "mocha": "^10.7.3",
+    "supertest": "^7.0.0"
+  }
+}
