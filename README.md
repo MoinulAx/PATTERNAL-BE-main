@@ -8,9 +8,6 @@ TBD
 
 <b>(MVP) Moinul Khan 💻</b><br>
 <br>
-Brendan O'Brien<br>
-Camilo Paez<br>
-Vianel De La Cruz
 
 ## Technologies Used 🛠️
 
